@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "7F760F5073793CDBCB9C1D354E589FF8E99B0942",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "64D7330E1218D83684DB7EB37E2E9481C5635452" : 0,
+    "7F760F5073793CDBCB9C1D354E589FF8E99B0942" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "3AE0E0D0-6309-4E81-B7D1-E5F7F04D8826",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "64D7330E1218D83684DB7EB37E2E9481C5635452" : "..\/LearningiOSDemo",
+    "7F760F5073793CDBCB9C1D354E589FF8E99B0942" : "LearningiOSDemo\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "LearningiOSDemo",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "LearningiOSDemo.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/yangbingqi155\/LearningiOSDemo.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "64D7330E1218D83684DB7EB37E2E9481C5635452"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/yangbingqi155\/LearningiOSDemo.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "7F760F5073793CDBCB9C1D354E589FF8E99B0942"
+    }
+  ]
+}

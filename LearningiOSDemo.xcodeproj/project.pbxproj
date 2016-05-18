@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		E48F85FC1CEC9828005FCB38 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E48F85FB1CEC9828005FCB38 /* main.m */; };
+		E48F861C1CECA4E0005FCB38 /* XYZPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = E48F861B1CECA4E0005FCB38 /* XYZPerson.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		E48F85F81CEC9828005FCB38 /* LearningiOSDemo */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LearningiOSDemo; sourceTree = BUILT_PRODUCTS_DIR; };
 		E48F85FB1CEC9828005FCB38 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E48F861A1CECA4E0005FCB38 /* XYZPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XYZPerson.h; path = ../../../LearningiOSDemo/LearningiOSDemo/XYZPerson.h; sourceTree = "<group>"; };
+		E48F861B1CECA4E0005FCB38 /* XYZPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XYZPerson.m; path = ../../../LearningiOSDemo/LearningiOSDemo/XYZPerson.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +60,8 @@
 		E48F85FA1CEC9828005FCB38 /* LearningiOSDemo */ = {
 			isa = PBXGroup;
 			children = (
+				E48F861A1CECA4E0005FCB38 /* XYZPerson.h */,
+				E48F861B1CECA4E0005FCB38 /* XYZPerson.m */,
 				E48F85FB1CEC9828005FCB38 /* main.m */,
 			);
 			path = LearningiOSDemo;
@@ -118,6 +123,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E48F861C1CECA4E0005FCB38 /* XYZPerson.m in Sources */,
 				E48F85FC1CEC9828005FCB38 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -239,6 +245,7 @@
 				E48F86011CEC9828005FCB38 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
