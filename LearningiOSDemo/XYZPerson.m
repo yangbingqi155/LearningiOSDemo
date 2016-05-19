@@ -10,6 +10,16 @@
 #import "XYZPerson.h"
 @implementation XYZPerson
 - (void)sayHello{
-    NSLog(@"Say Hello");
+    [self saySomeThing:@"Say Hello!"];
+    
+}
+-(void)saySomeThing:(NSString *) greets{
+    NSLog(@"%@",greets);
+}
+-(void)sayBye{
+    [self saySomeThing:@"Bye!"];
+}
++(XYZPerson *) person{
+    return [[self alloc]init];
 }
 @end

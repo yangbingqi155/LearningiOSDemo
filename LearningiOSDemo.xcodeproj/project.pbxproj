@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E416C32B1CEE0B0A00417752 /* XYZShoutingPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = E416C32A1CEE0B0A00417752 /* XYZShoutingPerson.m */; };
 		E48F85FC1CEC9828005FCB38 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E48F85FB1CEC9828005FCB38 /* main.m */; };
 		E48F861F1CECA5CC005FCB38 /* XYZPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = E48F861E1CECA5CC005FCB38 /* XYZPerson.m */; };
 /* End PBXBuildFile section */
@@ -24,6 +25,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		E416C3291CEE0AFC00417752 /* XYZShoutingPerson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XYZShoutingPerson.h; sourceTree = "<group>"; };
+		E416C32A1CEE0B0A00417752 /* XYZShoutingPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYZShoutingPerson.m; sourceTree = "<group>"; };
 		E48F85F81CEC9828005FCB38 /* LearningiOSDemo */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LearningiOSDemo; sourceTree = BUILT_PRODUCTS_DIR; };
 		E48F85FB1CEC9828005FCB38 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E48F861D1CECA5CC005FCB38 /* XYZPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYZPerson.h; sourceTree = "<group>"; };
@@ -63,6 +66,8 @@
 				E48F861D1CECA5CC005FCB38 /* XYZPerson.h */,
 				E48F861E1CECA5CC005FCB38 /* XYZPerson.m */,
 				E48F85FB1CEC9828005FCB38 /* main.m */,
+				E416C3291CEE0AFC00417752 /* XYZShoutingPerson.h */,
+				E416C32A1CEE0B0A00417752 /* XYZShoutingPerson.m */,
 			);
 			path = LearningiOSDemo;
 			sourceTree = "<group>";
@@ -124,6 +129,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E48F861F1CECA5CC005FCB38 /* XYZPerson.m in Sources */,
+				E416C32B1CEE0B0A00417752 /* XYZShoutingPerson.m in Sources */,
 				E48F85FC1CEC9828005FCB38 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
