@@ -14,6 +14,9 @@ int main(int argc, const char * argv[]) {
     @autoreleasepool {
         // insert code here...
         XYZPerson *xyzPerson=[XYZPerson person];
+        NSMutableString *firstName=[NSMutableString stringWithString:@"y"];
+        xyzPerson.firstName=firstName;
+        [firstName appendString:@"an"];
         [xyzPerson sayHello];
         [xyzPerson sayBye];
         XYZShoutingPerson *shoutingPerson=[XYZShoutingPerson person];

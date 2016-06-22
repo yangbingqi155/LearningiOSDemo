@@ -10,9 +10,10 @@
 #define XYZPerson_h
 #import <Foundation/Foundation.h>
 @interface XYZPerson :NSObject
-@property NSString *firstName;
-@property NSString *lastName;
-@property NSDate *dateOfBirth;
+@property (copy) NSString *firstName;
+@property (copy) NSString *lastName;
+@property (copy) NSDate *dateOfBirth;
+-(id) init;
 -(void) sayHello;
 -(void) saySomeThing:(NSString *) greets;
 -(void) sayBye;
