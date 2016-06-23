@@ -28,6 +28,9 @@
 -(void)sayBye{
     [self saySomeThing:@"Bye!"];
 }
+-(void) dealloc{
+    NSLog(@"XYZPerson being deallocated.");
+}
 +(XYZPerson *) person{
     return [[self alloc]init];
 }
