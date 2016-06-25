@@ -9,6 +9,8 @@
 #import <Foundation/Foundation.h>
 #import "XYZPerson.h"
 #import "XYZShoutingPerson.h"
+#import "XYZPersonNameDisplayAddtions.h"
+#import "NSStringDrawUppercaseAddtions.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
@@ -19,6 +21,7 @@ int main(int argc, const char * argv[]) {
         xyzPerson.firstName=firstName;
         [firstName appendString:@"an"];
         [xyzPerson sayHello];
+        [xyzPerson displayPersonName];
         [xyzPerson sayBye];
         xyzPerson=nil;
         XYZShoutingPerson *shoutingPerson=[XYZShoutingPerson person];
@@ -33,6 +36,10 @@ int main(int argc, const char * argv[]) {
         if(!nilPerson){
             NSLog(@"The nilPerson Pointer equls nil.");
         }
+        
+        NSString *uppercaseString=@"Use NSStringDrawUppercaseAddtions category change NSString instance to uppercase.";
+        NSLog([uppercaseString ybq_toUppercase]);
+        
     }
     return 0;
 }

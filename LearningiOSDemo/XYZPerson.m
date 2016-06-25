@@ -8,6 +8,10 @@
 
 #import <Foundation/Foundation.h>
 #import "XYZPerson.h"
+@interface XYZPerson()
+    @property (readwrite) float* height;
+    @property (readwrite) float* weight;
+@end
 @implementation XYZPerson
 - (id) init{
     self=[super init];
@@ -33,6 +37,12 @@
 }
 +(XYZPerson *) person{
     return [[self alloc]init];
+}
+-(void) measureHeight{
+    self.height=170;
+}
+-(void) measureWeight{
+    self.weight=70;
 }
 @end
 

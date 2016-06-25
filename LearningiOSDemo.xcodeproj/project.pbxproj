@@ -10,6 +10,8 @@
 		E416C32B1CEE0B0A00417752 /* XYZShoutingPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = E416C32A1CEE0B0A00417752 /* XYZShoutingPerson.m */; };
 		E48F85FC1CEC9828005FCB38 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E48F85FB1CEC9828005FCB38 /* main.m */; };
 		E48F861F1CECA5CC005FCB38 /* XYZPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = E48F861E1CECA5CC005FCB38 /* XYZPerson.m */; };
+		E4A20E621D1D3FA200B0E771 /* XYZPeronNameDisplayAddtions.m in Sources */ = {isa = PBXBuildFile; fileRef = E4A20E611D1D3FA200B0E771 /* XYZPeronNameDisplayAddtions.m */; };
+		E4A20E651D1D433900B0E771 /* NSStringDrawUppercaseAddtions.m in Sources */ = {isa = PBXBuildFile; fileRef = E4A20E641D1D433900B0E771 /* NSStringDrawUppercaseAddtions.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +33,10 @@
 		E48F85FB1CEC9828005FCB38 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E48F861D1CECA5CC005FCB38 /* XYZPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYZPerson.h; sourceTree = "<group>"; };
 		E48F861E1CECA5CC005FCB38 /* XYZPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYZPerson.m; sourceTree = "<group>"; };
+		E4A20E601D1D3F8600B0E771 /* XYZPersonNameDisplayAddtions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XYZPersonNameDisplayAddtions.h; sourceTree = "<group>"; };
+		E4A20E611D1D3FA200B0E771 /* XYZPeronNameDisplayAddtions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYZPeronNameDisplayAddtions.m; sourceTree = "<group>"; };
+		E4A20E631D1D432F00B0E771 /* NSStringDrawUppercaseAddtions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSStringDrawUppercaseAddtions.h; sourceTree = "<group>"; };
+		E4A20E641D1D433900B0E771 /* NSStringDrawUppercaseAddtions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSStringDrawUppercaseAddtions.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +74,10 @@
 				E48F85FB1CEC9828005FCB38 /* main.m */,
 				E416C3291CEE0AFC00417752 /* XYZShoutingPerson.h */,
 				E416C32A1CEE0B0A00417752 /* XYZShoutingPerson.m */,
+				E4A20E601D1D3F8600B0E771 /* XYZPersonNameDisplayAddtions.h */,
+				E4A20E611D1D3FA200B0E771 /* XYZPeronNameDisplayAddtions.m */,
+				E4A20E631D1D432F00B0E771 /* NSStringDrawUppercaseAddtions.h */,
+				E4A20E641D1D433900B0E771 /* NSStringDrawUppercaseAddtions.m */,
 			);
 			path = LearningiOSDemo;
 			sourceTree = "<group>";
@@ -128,6 +138,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4A20E621D1D3FA200B0E771 /* XYZPeronNameDisplayAddtions.m in Sources */,
+				E4A20E651D1D433900B0E771 /* NSStringDrawUppercaseAddtions.m in Sources */,
 				E48F861F1CECA5CC005FCB38 /* XYZPerson.m in Sources */,
 				E416C32B1CEE0B0A00417752 /* XYZShoutingPerson.m in Sources */,
 				E48F85FC1CEC9828005FCB38 /* main.m in Sources */,

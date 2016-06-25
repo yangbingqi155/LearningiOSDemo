@@ -13,11 +13,15 @@
 @property (copy) NSString *firstName;
 @property (copy) NSString *lastName;
 @property (copy) NSDate *dateOfBirth;
+@property (readonly) float* height;
+@property (readonly) float* weight;
 -(id) init;
 -(void) sayHello;
 -(void) saySomeThing:(NSString *) greets;
 -(void) sayBye;
 +(XYZPerson *) person;
+-(void) measureHeight;
+-(void) measureWeight;
 @end
 
 
